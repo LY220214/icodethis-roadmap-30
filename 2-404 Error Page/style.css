@@ -1,0 +1,8 @@
+.text-shadow {
+    text-shadow: 5px 7.5px 5px rgba(123, 123, 123, 0.5);
+}
+
+.notfound {
+    font-weight: bolder;
+    text-shadow: 10px 15px 10px rgba(123, 123, 123, 0.5);
+}

@@ -27,10 +27,10 @@
 
 ## 快速目录
 
-| 项目名           | 在线查看                                                     | 项目链接                           |
-| ---------------- | ------------------------------------------------------------ | ---------------------------------- |
-| 1-Basics         | [icodethis-30Day-1 (codepen.io)](https://codepen.io/LY220214/full/jOoOpMw) | [1-Basics](1-Basics)               |
-| 2-404 Error Page | [icodethis-30Day-2 (codepen.io)](https://codepen.io/LY220214/full/wvbvxoo) | [2-404ErrorPage](2-404 Error Page) |
+| 项目名           | 在线查看                                                     | 项目链接                                 |
+| ---------------- | ------------------------------------------------------------ | ---------------------------------------- |
+| 1-Basics         | [icodethis-30Day-1 (codepen.io)](https://codepen.io/LY220214/full/jOoOpMw) | [1-Basics](1-Basics)                     |
+| 2-404 Error Page | [icodethis-30Day-2 (codepen.io)](https://codepen.io/LY220214/full/wvbvxoo) | [2-404 Error Page](2-404%20Error%20Page) |
 
 
 

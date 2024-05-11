@@ -1,0 +1,37 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-[#eef0f2] flex justify-center items-center min-h-screen w-screen">
+<div class="h-[400px] w-[380px] flex flex-col items-center justify-center bg-white shadow-2xl relative">
+  <p class="text-slate-400 text-[28px] absolute top-[5px] right-[20px] select-none cursor-pointer">x</p>
+  <div class="hearts flex mb-2 select-none">
+    <div class="heart bg-slate-500 h-[40px] w-[20px] inline-block rounded-t-full rotate-[-45deg] origin-right"></div>
+    <div class="heart bg-slate-500 h-[40px] w-[20px] inline-block rounded-t-full rotate-45 origin-left"></div>
+  </div>
+  <h2 style="display: block;font-size: 1.5em;margin: 0.83em 0;font-weight: bold;">让心脏跳动起来</h2>
+  <p>点击下方按钮激活心脏</p>
+  <p class="my-5 select-none">👇</p>
+  <div class="button
+        bg-[#232e4d] w-[120px] h-[30px] text-white cursor-pointer select-none rounded-full
+        shadow-[3px_3px_2px_2px_rgba(123,123,123,0.5)]
+        flex items-center justify-center
+        hover:border-r-white
+        hover:border-b-white
+        hover:border-l-slate-500
+        hover:border-t-slate-500
+        hover:scale-95
+        hover:shadow-[inset_3px_3px_2px_2px_rgba(123,123,123,0.5)]
+  ">
+    激活
+  </div>
+</div>
+</body>
+<script src="script.js"></script>
+
+</html>

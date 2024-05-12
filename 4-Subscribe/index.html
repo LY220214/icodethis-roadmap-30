@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Remove the line below if you don't want to use TailwindCSS -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<!-- Change code below this line -->
+<body class="bg-[#f1f5f9] h-screen select-none
+            flex justify-center items-center">
+
+<div class="notify absolute hidden py-2 px-4 bg-white text-sm
+            flex justify-center items-center">这是一条提示</div>
+
+<div class="bg-white h-[360px] w-[720px]
+            shadow-[0px_0px_10px_2px_rgba(100,100,100,0.2)]
+            flex justify-center items-center flex-col">
+
+  <h2 class="block text-2xl font-bold my-3">订阅我们</h2>
+  <p class="text-slate-600 text-sm">我们将会通过邮箱通知您最新信息！</p>
+
+  <div class="w-full  h-[40px] my-10
+              select-none
+              flex items-end justify-center">
+    <input type="text" placeholder="输入您的邮箱"
+           class="email
+                  w-1/3 py-2  mr-3
+                  boder border-slate-600 border-b-2
+                  focus:outline-none"/>
+    <div class="button
+                bg-[#3d9fff] text-white py-2 px-10 cursor-pointer rounded-full
+                shadow-[0px_0px_10px_0px_#0058ff]
+                active:scale-95">发送</div>
+  </div>
+
+  <div class="flex justify-center items-center">
+    <input type="checkbox" class="agree"/>
+    <p class="text-slate-600 text-sm ml-1">我同意存储我的邮箱地址，并用于接收最新信息。</p>
+  </div>
+</div>
+
+</body>
+<script src="index.js"></script>
+</html>

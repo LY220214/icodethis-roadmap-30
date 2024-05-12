@@ -1,0 +1,56 @@
+@keyframes active {
+    from{
+
+    }
+    to {
+        border-bottom: #3d9fff 2px solid;
+    }
+}
+
+@keyframes correct {
+    from{
+
+    }
+    to {
+        border-bottom: #67c23a 2px solid;
+    }
+}
+
+@keyframes incorrect {
+    from{
+
+    }
+    to {
+        border-bottom: #ff0000 2px solid;
+    }
+}
+
+@keyframes success {
+    from {
+        top: -100px;
+    }
+    to {
+        background-color: #f0f9eb;
+        color: #67c23a;
+        top: 10px;
+    }
+}
+
+@keyframes fail {
+    from {
+        top: -100px;
+    }
+    to {
+        background-color: #fef0f0;
+        color: #f56c6c;
+        top: 10px;
+    }
+}
+
+@keyframes noChecked {
+    from {
+    }
+    to {
+        box-shadow: 0 0 5px 0 #f56c6c;
+    }
+}

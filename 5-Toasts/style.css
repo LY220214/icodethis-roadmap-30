@@ -1,0 +1,117 @@
+:root {
+    --warning-color: #e6a23c;
+    --warning-background-color: #fdf6ec;
+    --shadow: 0 0 5px 1px rgba(100, 100, 100, .5);
+
+    --body-background-color: #f0f3fb;
+    --text-color: #141625;
+    --toast-background-color: white;
+    --succeed-text-color: white;
+    --succeed-background-color: #0abd34;
+
+
+    --light-background-color: #f0f3fb;
+    --light-text-color: #141625;
+    --light-toast-background-color: white;
+    --light-succeed-text-color: white;
+    --light-succeed-background-color: #0abd34;
+
+    --dark-background-color: #141625;
+    --dark-text-color: white;
+    --dark-toast-background-color: #1d1f37;
+    --dark-succeed-text-color: #0abd34;
+    --dark-succeed-background-color: white;
+}
+
+body {
+    transition: color 1s, background-color 1s;
+    background-color: var(--body-background-color);
+    color: var(--text-color);
+}
+
+.toast {
+    transition: color 1s, background-color 1s;
+    color: var(--text-color);
+    background-color: var(--toast-background-color);
+    box-shadow: var(--shadow);
+}
+
+.succeed {
+    transition: color 1s, background-color 1s;
+    color: var(--succeed-text-color);
+    background-color: var(--succeed-background-color);
+}
+
+.switch {
+    background-color: #f0f3fb;
+    box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, .3),
+                inset -2px -2px 2px 2px white;
+}
+
+.switch-button {
+    background-color: white;
+    box-shadow:  2px 2px 2px 2px rgba(0, 0, 0, .3);
+}
+
+.progress {
+    animation: progressAnimation 5s forwards;
+}
+
+@keyframes open {
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes close {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes progressAnimation {
+    0% {
+        width: 0;
+        background-color: #fdf6ec;
+    }
+    100% {
+        width: 100%;
+        background-color: #14f348;
+    }
+}
+
+@keyframes finish {
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px 2px rgba(255, 255, 255, .7);
+    }
+    to {
+        transform: scale(1);
+        box-shadow: var(--shadow);
+    }
+}
+
+@keyframes hover {
+    from {
+        transform: scale(1);
+        box-shadow: var(--shadow);
+    }
+    to {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px 2px rgba(255, 255, 255, .7);
+    }
+}
+
+@keyframes mouseleave {
+    from {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px 2px rgba(255, 255, 255, .7);
+    }
+    to {
+        transform: scale(1);
+        box-shadow: var(--shadow);
+    }
+}

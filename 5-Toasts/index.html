@@ -1,0 +1,80 @@
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Remove the line below if you don't want to use TailwindCSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title></title>
+</head>
+
+<!-- Change code below this line -->
+<body class="h-screen w-screen select-none
+            flex justify-center items-center flex-col">
+<div class="toast
+            w-1/2
+            flex justify-center flex-col
+            items-center
+            relative
+            h-16 p-3">
+    <div class="progress
+                bg-green-100 h-full top-0 left-0
+                hidden absolute"></div>
+    <div class="w-full z-10 flex items-center ">
+        <div class="succeed
+                    h-7 w-7 p-2 font-bold font-mono text-xl rounded-full
+                    flex items-center justify-center">√
+        </div>
+        <div class="toast-text ml-3">完成</div>
+    </div>
+</div>
+<div class="controllers
+            mt-5 text-sm
+            flex items-center justify-center flex-col">
+    <div class="p-2 flex items-center justify-center">
+        方角
+        <div class="switch
+                    h-6 w-12 mx-3 border rounded-full cursor-pointer
+                    flex items-center justify-start"
+             data-name="round">
+            <div class="switch-button h-6 w-6 rounded-full"></div>
+        </div>
+        圆角
+    </div>
+    <div class="p-2 flex items-center justify-center">
+        日间
+        <div class="switch
+                    h-6 w-12 mx-3 border rounded-full cursor-pointer
+                    flex items-center justify-start"
+             data-name="theme">
+            <div class="switch-button h-6 w-6 rounded-full"></div>
+        </div>
+        夜间
+    </div>
+    <div class="p-2 flex items-center justify-center">
+        关闭进度条
+        <div class="switch
+                    h-6 w-12 mx-3 border rounded-full cursor-pointer
+                    flex items-center justify-start"
+             data-name="progress">
+            <div class="switch-button h-6 w-6 rounded-full"></div>
+        </div>
+        开启进度条
+    </div>
+    <div class="p-2 flex items-center justify-center">
+        靠边
+        <div class="switch
+                    h-6 w-12 mx-3 border rounded-full cursor-pointer
+                    flex items-center justify-start"
+             data-name="center">
+            <div class="switch-button h-6 w-6 rounded-full"></div>
+        </div>
+        居中
+    </div>
+</div>
+</body>
+<script src="index.js"></script>
+
+</html>

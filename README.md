@@ -34,6 +34,7 @@
 | 2-404 Error Page  | [icodethis-30Day-2 (codepen.io)](https://codepen.io/LY220214/full/wvbvxoo) | [2-404 Error Page](2-404%20Error%20Page) |
 | 3-Christmas Promo | [icodethis-30Day-3 (codepen.io)](https://codepen.io/LY220214/full/wvbBaba) | [3-Christmas Promo](3-Christmas%20Promo) |
 | 4-Subscribe       | [icodethis-30Day-4 (codepen.io)](https://codepen.io/LY220214/full/dyEPJRX) | [4-Subscribe](4-Subscribe)               |
+| 5-Toasts          | [icodethis-30Day-5 (codepen.io)](https://codepen.io/LY220214/full/dyEPqJp) | [5-Toasts](5-Toasts)                     |
 
 
 

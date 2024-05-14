@@ -88,15 +88,17 @@ let isCollapse = false
 
 // 切换模式
 const toggle = () => {
+    // 如果上一次事件没有结束 则取消上一次
+    if (timeoutList.length > 0) timeoutList.forEach(item => clearTimeout(item))
     if (isCollapse) {
         card.style.transition = 'all .75s cubic-bezier(0.61,-0.11, 0.7,-0.11)'
         card.style.width = 350 + 'px'
         button.innerText = '查看全部'
         header.style.transform = 'translateX(0)'
         // 数据延迟填充 优化视觉效果
-        setTimeout(() => {
+        timeoutList.push(setTimeout(() => {
             showBrief()
-        }, 650)
+        }, 650))
     } else  {
         card.style.transition = 'all .75s cubic-bezier(0.61,-0.11, 0.7,-0.11)'
         header.style.transition = 'all .75s cubic-bezier(0.61,-0.11, 0.7,-0.11)'
@@ -104,9 +106,9 @@ const toggle = () => {
         card.style.width = 270 * 4 + 'px'
         button.innerText = '返回'
         // 数据延迟填充 优化视觉效果
-        setTimeout(() => {
+        timeoutList.push(setTimeout(() => {
             showDetail()
-        }, 650)
+        }, 650))
     }
     isCollapse = !isCollapse
 }

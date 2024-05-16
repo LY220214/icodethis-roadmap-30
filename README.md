@@ -36,6 +36,8 @@
 | 4-Subscribe       | [icodethis-30Day-4 (codepen.io)](https://codepen.io/LY220214/full/dyEPJRX) | [4-Subscribe](4-Subscribe)               |
 | 5-Toasts          | [icodethis-30Day-5 (codepen.io)](https://codepen.io/LY220214/full/dyEPqJp) | [5-Toasts](5-Toasts)                     |
 | 6-Birthday List   | [icodethis-30Day-6 (codepen.io)](https://codepen.io/LY220214/full/YzbXwLp) | [6-Birthday List](6-Birthday%20List)     |
+| 7-Pricing Table   | [icodethis-30Day-7 (codepen.io)](https://codepen.io/LY220214/full/rNgOjQp) | [7-Pricing Table](7-Pricing%20Table)     |
+| 8-Signup Form     | [icodethis-30Day-8 (codepen.io)](https://codepen.io/LY220214/full/PovPWgq) | [8-Signup Form](8-Signup%20Form)         |
 
 
 

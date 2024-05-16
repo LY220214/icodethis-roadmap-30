@@ -1,0 +1,21 @@
+@keyframes active {
+    from {
+        transform: scale(1);
+    }
+    to {
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, .3);
+        transform: scale(1.1);
+        border-radius: 1.5rem;
+    }
+}
+
+@keyframes inactive {
+    from {
+        box-shadow: 0 0 10px 3px rgba(0, 0, 0, .3);
+        transform: scale(1.1);
+        border-radius: 1.5rem;
+    }
+    to {
+        transform: scale(1);
+    }
+}
